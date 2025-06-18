@@ -1,7 +1,5 @@
 User-agent: Googlebot
-Disallow: /nogooglebot/
+Allow: /wp-content/uploads/
 
-User-agent: *
-Allow: /
 
 Sitemap: https://www.anwesha15.github.io/sitemap.xml
