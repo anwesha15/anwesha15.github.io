@@ -5,13 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
+<!--
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
+-->
 
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
+<!--
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -31,6 +34,177 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
+-->
+
+<!--Needed if .md file for each paper is added in the _publications folder--> 
+<!--
+{% for post in site.publications reversed %}
+    {% include archive-single.html %}
+{% endfor %}
+-->
 
 
+<ol reversed>
 
+<li> Inter-Metric Correlations for GPU Performance Analysis <br>
+<b>Anwesha Das</b>, Ethan Fan, Wenkai Xi, Henry Hoffmann<br>
+<i>Under Submission</i> 
+</li>
+
+
+<li> Transient Faults in GPUs through the lens of Energy Variations <br>
+<b>Anwesha Das</b>, Konstantinos Mourogiannis, Henry Hoffmann<br>
+<i>Under Review</i> 
+</li>
+
+
+<li> WASL: Harmonizing Uncoordinated Adaptive Modules in Multi-Tenant Cloud Systems <br>
+Ahsan Pervaiz, <b>Anwesha Das</b>, Vedant Kodagi, Muhammad Santriaji, Henry Hoffmann<br>
+<i>Under Review</i> 
+</li>
+
+<li> Adaptive Cross-GPU Performance Prediction with Hardware Performance Counters <br> 
+Yuliana Zamora*, <b>Anwesha Das*</b>, Qing Xiao, Jie Zhu, Divya Pattisapu, Bethany Lusch, Murali Emani, Misha Salim, Venkatram Vishwanath, <br> 
+Ian Foster, Haryadi S. Gunawi, Henry Hoffmann  <br>
+*co-first authors (equal contribution) <i>Under Review</i> 
+</li>
+
+<li> Anomaly Localization for Performance Instabilities in Complex Accelerator Facilities <br>
+<b>Anwesha Das</b>, Sean Kalsi, William Colocho, Daniel Ratner, Alex Aiken <br>
+<i>Under Review</i> <a href="../files/journal.pdf" target="_blank">[Preprint]</a>
+</li>
+
+<li> Flexible Windowing for Correlation-Aware Ranking in Anomalous Environments <br>
+<b>Anwesha Das</b>, Henry Hoffmann, Alex Aiken <br>
+<i>IEEE ICDM 2025</i> <a href="../files/ICDM25.pdf" target="_blank">[PDF]</a>
+<a href="../files/AdaptWin.pdf" target="_blank">[Slides]</a>
+</li>
+
+<li> Prolego: Time-Series Analysis for Predicting Failures in Complex Systems <br> 
+<b>Anwesha Das</b>, Alex Aiken <br>
+<i>IEEE ACSOS 2023</i> <a href="../files/ACSOS23.pdf" target="_blank">[PDF]</a>
+<a href="../files/ACSOS2023.pdf" target="_blank">[Slides]</a>
+<a href="https://github.com/adaptsyslearn/Prolego" target="_blank">[Code]</a>
+</li>
+
+<li> Performance Variability and Causality in Complex Systems <br>
+<b>Anwesha Das</b>, Daniel Ratner, Alex Aiken <br>	
+<i>IEEE ACSOS-C 2022</i> <a href="../files/ACSOS22.pdf" target="_blank">[PDF]</a> 
+<a href="https://www.youtube.com/watch?v=jnQLttDF7Xg&t=2s" target="_blank">[Talk]</a>
+<a href="../files/ACSOS22Poster.pdf" target="_blank">[Poster]</a>
+</li>
+
+
+<li> Proactive Resilience via Log Mining for Production Systems <br>
+<b>Anwesha Das</b>, Frank Mueller <br>	
+<i>Under Review</i> <a href="../files/LOG.pdf" target="_blank">[Preprint]</a> 
+</li>
+
+<li> Systemic Assessment of Node Failures in HPC Production Platforms <br>
+<b>Anwesha Das</b>, Frank Mueller, Barry Rountree <br>	
+<i>IEEE IPDPS 2021</i> <a href="../files/IPDPS21.pdf" target="_blank">[PDF]</a> 
+<a href="../files/NodeFailuresIPDPS21.pdf" target="_blank">[Slides]</a>
+<a href="https://www.computer.org/csdl/video-library/video/1Bedh44bJpm" target="_blank">[Talk]</a> (requires subscription)
+<a href="https://github.com/adaptsyslearn/Node-Failures" target="_blank">[Code]</a>
+<a href="https://doi.org/10.5281/zenodo.3872724" target="_blank">[Data]</a>
+</li>
+
+<li> Aarohi: Making Real-time Node Failure Prediction Feasible <br>
+<b>Anwesha Das</b>, Frank Mueller, Barry Rountree <br>	
+<i>IEEE IPDPS 2020</i> <a href="../files/IPDPS20.pdf" target="_blank">[PDF]</a> 
+<a href="../files/AarohiSlides.pdf" target="_blank">[Slides]</a>
+<a href="https://github.com/adaptsyslearn/Aarohi" target="_blank">[Code]</a>
+</li>
+
+<li> Desh: Deep Learning for System Health Prediction of Lead Times to Failure in HPC <br>
+<b>Anwesha Das</b>, Frank Mueller, Charles Siegel, Abhinav Vishnu <br>	
+<i>ACM HPDC 2018</i> <a href="../files/HPDC18.pdf" target="_blank">[PDF]</a>
+<a href="../files/Desh_poster.pdf" target="_blank">[Poster]</a> 
+</li>
+
+<li> Doomsday: Predicting Which Node Will Fail When on Supercomputers <br>
+<b>Anwesha Das</b>, Frank Mueller, Paul Hargrove, Eric Roman, Scott Baden <br>	
+<i>ACM/IEEE SC 2018</i> <b>(Best Student Paper Finalist)</b> <a href="../files/SC18.pdf" target="_blank">[PDF]</a>
+<a href="https://doi.org/10.5281/zenodo.4347197" target="_blank">[Data]</a>
+<a href="https://sc18.supercomputing.org/proceedings/tech_paper/tech_paper_files/pap111s5.pdf" target="_blank">[Slides]</a>
+<a href="https://www.hpcwire.com/off-the-wire/sc18-papers-program-is-live-and-awards-finalists-are-posted/" target="_blank">[HPCWire Coverage]</a> 
+</li>
+
+<li> KeyValueServe: Design and Performance Analysis of a Multi-Tenant Data Grid as a Cloud Service <br> 
+<b>Anwesha Das</b>, Arun Iyengar, Frank Mueller <br>
+<i>Concurrency and Computation: Practice and Experience, June 2018</i> 
+<a href="../files/CCPE18.pdf" target="_blank">[PDF]</a>
+<a href="https://onlinelibrary.wiley.com/doi/10.1002/cpe.4424" target="_blank">[Link]</a>
+</li>
+
+<li> Performance Analysis of a Multi-Tenant In-memory Data Grid <br> 
+<b>Anwesha Das</b>, Frank Mueller, Xiaohui Gu, Arun Iyengar <br>
+<i>IEEE Cloud 2016</i> <a href="../files/CLOUD16.pdf" target="_blank">[PDF]</a>
+</li>
+  
+<li> Dynamic Resource Management using Virtual Machine Migrations <br> 
+Mayank Mishra, <b>Anwesha Das</b>, Purushottam Kulkarni, Anirudha Sahoo <br>
+<i>IEEE Communications Magazine, June 2012</i> <a href="../files/COMMAG12.pdf" target="_blank">[PDF]</a>
+</li>
+
+</ol>
+
+
+<h3> Peer-Reviewed Short Papers and Posters </h3>
+
+<ol reversed>
+
+
+  
+<li> Anomaly Detection in Accelerator Facilities Using Machine Learning <br> 
+<b>Anwesha Das</b>, Daniel Ratner, Michael Borland, Louis Emery, Xiaobiao Huang, Hairong Shang, Guobao Shen, Reid Smith, Guimei Wang <br>
+<i>International Particle Accelerator Conference, IPAC'21</i> 
+<a href="https://proceedings.jacow.org/ipac2021/papers/mopab077.pdf" target="_blank">[PDF]</a>
+<a href="https://proceedings.jacow.org/ipac2021/posters/mopab077_poster.pdf" target="_blank">[Poster]</a>
+</li>
+
+<li> Holistic Root Cause Analysis of Node Failures in Production HPC <br> 
+<b>Anwesha Das</b>, Frank Mueller <br>
+<a href="https://sc18.supercomputing.org/proceedings/src_poster/" target="_blank">ACM SRC</a> <i>SC'18</i> 
+<a href="https://sc18.supercomputing.org/proceedings/src_poster/poster_files/spost107s2-file2.pdf" target="_blank">[PDF]</a>
+<a href="https://sc18.supercomputing.org/proceedings/src_poster/poster_files/spost107s2-file1.pdf" target="_blank">[Poster]</a>
+</li>
+  
+<li> Aarohi: Efficient Online Failure Prediction <br> 
+<b>Anwesha Das</b>, Frank Mueller <br> 
+<a href="https://src.acm.org/" target="_blank">ACM SRC</a> <i>ASPLOS'18</i> (<b>Semi-Finalist</b>, amongst Top-5) 
+<a href="../files/ASPLOSPoster.pdf" target="_blank">[PDF]</a>
+<a href="../files/posterAsplos.pdf" target="_blank">[Poster]</a>
+</li>
+
+<li> Desh: Deep Learning for HPC System Health Resilience <br> 
+<b>Anwesha Das</b>, Abhinav Vishnu, Charles Siegel, Frank Mueller <br> 
+<i>ACM/IEEE SC'17</i> 
+<a href="https://sc17.supercomputing.org/SC17%20Archive/tech_poster/poster_files/post191s2-file3.pdf" target="_blank">[PDF]</a>
+<a href="https://sc17.supercomputing.org/SC17%20Archive/tech_poster/tech_poster_pages/post191.html" target="_blank">[Poster]</a>
+</li>
+
+<li> Pin-Pointing Node Failures in HPC Systems <br> 
+<b>Anwesha Das</b>, Frank Mueller, Paul Hargrove, Eric Roman <br> 
+<i>ACM/IEEE SC'16</i> 
+<a href="https://sc16.supercomputing.org/sc-archive/tech_poster/poster_files/post254s2-file3.pdf" target="_blank">[PDF]</a>
+<a href="https://sc16.supercomputing.org/sc-archive/tech_poster/tech_poster_pages/post254.html" target="_blank">[Poster]</a>
+</li>
+
+</ol>
+
+<h3>Theses</h3>
+
+<ul>
+
+<li> <b>PhD</b> (2019): Predicting Location and Time of Anomalies in Large-Scale Computing Systems via Log Mining
+     <a href="https://repository.lib.ncsu.edu/items/de7a6b99-e174-4365-8bab-1acfa769e5a9" target="_blank">[Link]</a>
+     <a href="https://repository.lib.ncsu.edu/server/api/core/bitstreams/68f7738e-720f-4130-b36a-1082d0d09825/content" target="_blank">[PDF]</a>
+</li>
+	
+<li> <b>Master's</b> (2012): A Comparative Analysis of Server Consolidation Algorithms on a Novel Software Framework
+     <a href="https://opac.library.iitb.ac.in/bib/217872" target="_blank">[Link]</a>
+     <a href="../files/MTP.pdf" target="_blank">[PDF]</a>
+</li>
+
+</ul>

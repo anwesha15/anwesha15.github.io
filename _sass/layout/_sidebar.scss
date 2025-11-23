@@ -80,12 +80,14 @@
    Author profile and links
    ========================================================================== */
 
+$avatar-size: 150px;
+
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
+  display: table-cell; 
+  vertical-align: top; 
+  width: $avatar-size; //36px
   // set width only, for non-square avatars
-  // height: 36px;
+  height: $avatar-size; 
 
   @include breakpoint($large) {
     display: block;
@@ -94,8 +96,8 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    max-width: 175px; //AD added, this width fits, else footer overlaps with the main page
+    //border-radius: 50%;  
 
     @include breakpoint($large) {
       padding: 5px;
