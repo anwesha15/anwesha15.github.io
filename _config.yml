@@ -14,8 +14,8 @@ title                    : "Anwesha's Space"
 title_separator          : "-"
 name                     : &name "Anwesha Das"
 description              : &description "CS Researcher"
-url                      : https://anwesha15.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "https://anwesha15.github.io" # the subpath of your site, e.g. "/blog"
+url                      : "https://anwesha15.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "anwesha15/anwesha15.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
