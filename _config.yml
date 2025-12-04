@@ -23,7 +23,7 @@ repository               : "anwesha15/anwesha15.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : '/images/PIC.jpg'
+  avatar           : 'PIC.jpg'
   name             : "Anwesha Das"
   pronouns         : "she/her/hers" # example:  
   bio              : "CS Researcher"
