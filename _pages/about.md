@@ -20,7 +20,7 @@ did a PhD in CS at NC State University, and a master's in CS at IITB, India.
 Even before that, I was a CS undergrad affiliated with WBUT, Kolkata, India.
 
 <br><br>
-I am originally from Siliguri, a city nested at the base of the Himalayas in North Bengal, India.
+I am originally from Siliguri, a city nested at the base of the mighty Himalayas in North Bengal, India.
 
  
 <br><br>
