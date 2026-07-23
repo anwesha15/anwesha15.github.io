@@ -24,7 +24,7 @@ I am originally from Siliguri, a city nested at the base of the mighty Himalayas
 
  
 <br><br>
-<!-- Email is the best way to reach me. --> 
+Email is the best way to reach me. 
 </p>
 
 
