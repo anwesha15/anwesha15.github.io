@@ -9,10 +9,10 @@ redirect_from:
 
 <p style="font-family:Times New Roman; font-size: 0.94em;">
 I have been a CS researcher at the <a href="https://cs.uchicago.edu/">CS</a> department, UChicago, IL. <br> 
-My general research interests are in reliability and performance of systems (broadly construed), 
+My general research interests are in reliability and performance of architecture/systems (broadly construed), 
 at the crossroads of Systems and AI/ML.<br> 
 My current areas of investigation relate to hardware reliability and application performance 
-modeling on diverse accelerator architectures.     
+modeling for diverse accelerator architectures.     
 
 <br><br>
 Prior to UChicago, I was a CS post-doc at Stanford University, 
