@@ -12,7 +12,10 @@ I have been a CS researcher at the <a href="https://cs.uchicago.edu/">CS</a> dep
 My general research interests are in reliability and performance of architecture/systems (broadly construed), 
 at the crossroads of Systems and AI/ML.<br> 
 My current areas of investigation relate to hardware reliability and application performance 
-modeling for diverse accelerator architectures.     
+modeling for diverse accelerator architectures. 
+
+<br><br>
+I am interested in developing energy-aware solutions to make systems more reliable, and exploring cross-layer predictable methods involving hardware, software, and application to enhance accelerator performance for emerging architectures and applications.        
 
 <br><br>
 Prior to UChicago, I was a CS post-doc at Stanford University, 
