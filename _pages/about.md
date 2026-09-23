@@ -15,7 +15,7 @@ My current areas of investigation relate to hardware reliability and application
 modeling for diverse accelerator architectures. 
 
 <br><br>
-I am interested in developing energy-aware solutions to make systems more reliable, and cross-layer predictable methods to enhance accelerator performance for emerging architectures and applications.        
+I am deeply interested in developing energy-aware solutions to make systems more reliable, and designing cross-layer predictable methods to enhance accelerator performance for emerging architectures and applications.        
 
 <br><br>
 Prior to UChicago, I was a CS post-doc at Stanford University, 
