@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <p style="font-family:Times New Roman; font-size: 0.94em;">
-I have been a CS researcher at the <a href="https://cs.uchicago.edu/">CS</a> department, UChicago, IL. <br> 
+I have been a CS researcher at the <a href="https://cs.uchicago.edu/">CS</a> department, UChicago. <br> 
 My general research is in reliability and performance of architecture/systems (broadly construed), 
 at the crossroads of Systems and AI/ML.<br> 
 My current areas of investigation relate to hardware reliability and application performance 
