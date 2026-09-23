@@ -11,7 +11,7 @@ redirect_from:
 I have been a CS researcher at UChicago CS. <br> 
 My general research is in reliability and performance of architecture/systems (broadly construed), 
 at the crossroads of Systems and AI/ML.<br> 
-My current areas of investigation relate to hardware reliability and application performance 
+My current investigation areas relate to hardware reliability and application performance 
 modeling for diverse accelerator architectures. 
 
 <br><br>
