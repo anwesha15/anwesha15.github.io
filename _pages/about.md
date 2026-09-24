@@ -19,7 +19,7 @@ I am deeply interested in developing energy-aware solutions to make systems more
 
 <br><br>
 Prior to UChicago, I was a CS post-doc at Stanford University, 
-did a PhD in CS at NC State University, and a Master's in CS at IITB, India. 
+did a PhD in CS at NC State University, and a Masters in CS at IITB, India. 
 Even before that, I was a CS undergrad affiliated with WBUT, Kolkata, India.
 
 <br><br>
