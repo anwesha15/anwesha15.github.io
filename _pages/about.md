@@ -10,7 +10,7 @@ redirect_from:
 <p style="font-family:Times New Roman; font-size: 0.94em;">
 I have been a CS researcher at UChicago CS. <br> 
 My general research is in reliability and performance of architecture/systems (broadly construed), 
-at the crossroads of Systems and AI/ML.<br> 
+at the crossroads of systems and AI/ML.<br> 
 My current investigation areas relate to hardware reliability and application performance 
 modeling for diverse accelerator architectures. 
 
